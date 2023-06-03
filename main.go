@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	brokers := "localhost:9092"
+	brokers := "kafka:9092"
 	groupID := "your_consumer_group"
 	topic := "mytopic"
 
